@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Tim Hortons Roll Up The Rim Simulator</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+  <div class="main">
+    <h1>Tim Hortons Roll Up The Rim Simulator</h1>
+
+    <!--  Instructions -->
+    <p>First choose a province then click the picture to simulate the result of rolling up the rim Tim Horton’s Cup.</p>
+<p>
+  <select id="province">
+    <option value="choose">Choose a Province</option>
+    <option value="BC">British Columbia</option>
+    <option value="AB">Alberta</option>
+    <option value="SK">Saskatchwan</option>
+    </select></p>
+
+    <!-- Image & Results  -->
+    <img id="mainImg" src="images/cup.jpg">
+    <p><button id="plus5">Plus 5</button><button id="untilGrandPrize">Until 1 Grand Prize</button><button id="until500Donuts">Until 500 Donuts</button></p>
+    
+    <p>
+      <strong>TOTALS -> </strong>
+      Please Play Again: <span id="pleasePlayAgain">0</span>|
+      Free Coffee: <span id="coffee">0</span>|
+      Free Donut: <span id="donut">0</span>|
+      Grand Prize: <span id="grandPrize">0</span>|
+    </p>
+    <hr>
+
+    <p id="results"></p>
+
+  <!--  LOAD JAVASCRIPT -->
+  <script src="main.js"></script>
+
+</body>
+
+</html>
